@@ -1,7 +1,9 @@
-@media screen and (max-width: 480px){
+@media (max-width: 990px) {
     .navbar{
-        opacity: ;
+        opacity: 0.8;
+    }
+    .navbar-collapse{
+        height: 100vh;
     }
     
 }
-

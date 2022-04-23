@@ -1,0 +1,176 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Nunito+Sans:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Orbitron:wght@400;500;600;700;900&family=Raleway:wght@500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+@import "media";
+
+/* Variables*/
+  :root {
+    --color-corn-light: #f2deff;
+    --color-corn: cornflowerblue;
+    --color-bluelight: rgba(0,212,255,1);
+    --color-blue: rgb(53,99,139);
+    --color-green: rgb(0,255,126);
+    --color-grey: grey;
+    --color-wsmoke: whitesmoke;
+    --color-wapp: rgb(0,255,126);
+    --color-ig: #8a3ab9;
+    --color-fb:#3b5998;
+  }
+  $color-blanco: whitesmoke;
+  $color-oscuro: #343434;
+
+  
+  /* Tipografía general */
+  body {
+    font-family: raleway;
+    background-color: var(--color-wsmoke);
+  }
+
+  /* Creando Nuevas Clases */
+  .mt-6{
+      margin-top: 5rem;
+  }
+
+  .bg-corn{
+      background-color: var(--color-corn);
+  }
+
+  .text-corn{
+      color: var(--color-corn);
+}
+
+  .bg-blue{
+      background-color: var(--color-blue);
+  }
+  
+  .bg-blue-light{
+      background-color: var(--color-bluelight);
+  }
+
+  .bg-wsmoke{
+      background-color: var(--color-wsmoke);
+  }
+
+  .bg-gradient0{
+    background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%); 
+  }
+
+  .bg-gradient1{
+    background: linear-gradient(90deg, rgba(55,220,208,1) 20%, rgba(255,134,129,1) 40%, rgba(163,125,138,1) 79%);
+  }
+
+  .bg-gradient2{
+    background: linear-gradient(90deg, rgba(163,125,138,1) 20%, rgba(224,131,132,1) 40%, rgba(55,220,208,1) 79%);
+  }
+
+  .bg-gradient3{
+      background: linear-gradient(90deg, rgba(55,220,208,1) 20%, rgba(180,127,136,1) 39%, rgba(224,131,132,1) 60%, rgba(55,220,208,1) 80%);
+  }
+
+  .navbar-brand img{
+      border-radius: 10%;
+  }
+
+/* Pisando Clases existentes */
+
+.btn-primary {
+    color: var(--color-corn-light);
+    background-color: var(--color-corn);
+    border-color: var(--color-corn);
+}
+
+.btn-primary:hover{
+    color: var(--color-corn-light);
+    background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%); 
+    border-color: var(--color-green);
+    transform: scale(0.9);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--color-wsmoke);
+    background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%);
+    box-shadow: var(--color-corn);
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: var(--color-corn);
+    outline: 0;
+    box-shadow: 0 0 0 0.15rem var(--color-bluelight)
+}
+
+/* NAVBAR */
+
+  .fondo-nav{
+    background-color: var(--color-corn);
+  }
+
+  .nav-hover{
+    &:hover{
+      transform: scale(1.09);
+      transition: 500ms ease;
+    }
+  }
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    background: var(--color-corn);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .anchoFooter {
+    margin-top: 0px;
+  }
+  
+  .redes {
+    display: inline-block;
+  }
+  
+  .bi-facebook {
+    /* font-size: 30px; */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--color-corn-light);
+  }
+  
+  .bi-facebook:hover {
+    color: var(--color-fb);
+  }
+  
+  .bi-whatsapp {
+    /* font-size: 30px; */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--color-corn-light);
+  }
+  
+  .bi-whatsapp:hover {
+    color: var(--color-wapp);
+  }
+  
+  .bi-instagram {
+    /* font-size: 30px; */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--color-corn-light);
+  }
+  
+  .bi-instagram:hover {
+    color: var(--color-ig);
+  }
+  
+
+  @media (max-width: 768px) {
+    .mt-mob{
+        margin-top: 2rem;
+    }
+
+  }
+
