@@ -5,7 +5,23 @@
   .navbar {
     opacity: 0.8; }
   .navbar-collapse {
-    height: 100vh; } }
+    height: 100vh; }
+  .mt-mob {
+    margin-top: 2rem; } }
+
+@media (min-width: 990px) {
+  .grid-container {
+    /*grid-template-columns: 1fr 2fr 2fr;
+        grid-template-rows: repeat(2fr, 1fr);
+        grid-template-areas: 
+        "navbar navbar navbar"
+        "sidebar main main";
+        /*grid-template-columns: 80px auto;
+        grid-template-rows: 80px auto;
+        grid-template-areas:
+        "navbar  navbar"
+        "sidebar main";*/
+    grid-template: "navbar navbar  navbar" 80px "sidebar  main    main" auto / 200px    auto    200px; } }
 
 /* Variables*/
 :root {
@@ -27,7 +43,7 @@ body {
 
 /* Creando Nuevas Clases */
 .mt-6 {
-  margin-top: 5rem; }
+  margin-top: 6rem; }
 
 .bg-corn {
   background-color: var(--color-corn); }
@@ -55,9 +71,6 @@ body {
 
 .bg-gradient3 {
   background: linear-gradient(90deg, #37dcd0 20%, #b47f88 39%, #e08384 60%, #37dcd0 80%); }
-
-.navbar-brand img {
-  border-radius: 10%; }
 
 /* Pisando Clases existentes */
 .btn-primary {
@@ -89,6 +102,9 @@ body {
 .nav-hover:hover {
   transform: scale(1.09);
   transition: 500ms ease; }
+
+.navbar-brand img {
+  border-radius: 10%; }
 
 /* FOOTER */
 footer {
@@ -136,6 +152,26 @@ footer {
 .bi-instagram:hover {
   color: var(--color-ig); }
 
-@media (max-width: 768px) {
-  .mt-mob {
-    margin-top: 2rem; } }
+/* EXPERIENCIAS */
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border: 4px;
+  padding: 10px;
+  text-align: center; }
+
+.grid-navbar {
+  grid-area: navbar;
+  background-color: lightgreen; }
+
+.grid-sidebar {
+  grid-area: sidebar;
+  background-color: lightsalmon; }
+
+.grid-main {
+  grid-area: main;
+  background-color: whitesmoke; }
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "navbar" "sidebar" "main"; }

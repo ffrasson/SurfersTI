@@ -26,8 +26,8 @@
   }
 
   /* Creando Nuevas Clases */
-  .mt-6{
-      margin-top: 5rem;
+  .mt-6{ 
+    margin-top: 6rem;
   }
 
   .bg-corn{
@@ -64,10 +64,6 @@
 
   .bg-gradient3{
       background: linear-gradient(90deg, rgba(55,220,208,1) 20%, rgba(180,127,136,1) 39%, rgba(224,131,132,1) 60%, rgba(55,220,208,1) 80%);
-  }
-
-  .navbar-brand img{
-      border-radius: 10%;
   }
 
 /* Pisando Clases existentes */
@@ -109,6 +105,11 @@
       transition: 500ms ease;
     }
   }
+
+  .navbar-brand img{
+    border-radius: 10%;
+}
+
 
 /* FOOTER */
 
@@ -165,12 +166,37 @@ footer{
   .bi-instagram:hover {
     color: var(--color-ig);
   }
-  
 
-  @media (max-width: 768px) {
-    .mt-mob{
-        margin-top: 2rem;
-    }
+  /* EXPERIENCIAS */
 
-  }
+.grid-container > *{
+    box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+    border: 4px;
+    padding: 10px;
+    text-align: center;
+}
+
+.grid-navbar{
+  grid-area: navbar;
+  background-color: lightgreen;
+}
+
+.grid-sidebar{
+  grid-area: sidebar;
+  background-color: lightsalmon;
+}
+
+.grid-main{
+  grid-area: main;
+  background-color: whitesmoke;
+}
+
+.grid-container{
+  display: grid;
+  gap: 10px;
+  grid-template-areas: 
+  "navbar"
+  "sidebar"
+  "main";
+}
 
