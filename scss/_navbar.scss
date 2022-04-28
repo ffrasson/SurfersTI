@@ -1,0 +1,13 @@
+/* NAVBAR */
+a{
+  img{
+    border-radius: 10%;
+  }
+}
+
+.nav-hover{
+  &:hover{
+    transform: scale(1.09);
+    transition: 500ms ease;
+  }
+}

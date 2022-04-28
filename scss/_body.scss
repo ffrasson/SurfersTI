@@ -1,0 +1,46 @@
+  /* Tipografía general */
+  body {
+    font-family: raleway;
+    background-color: var(--color-wsmoke);
+  }
+
+  /* Creando Nuevas Clases */
+  .mt-6{ 
+    margin-top: 6rem;
+  }
+
+  .bg-corn{
+      background-color: var(--color-corn);
+  }
+
+  .text-corn{
+      color: var(--color-corn);
+}
+
+  .bg-blue{
+      background-color: var(--color-blue);
+  }
+  
+  .bg-blue-light{
+      background-color: var(--color-bluelight);
+  }
+
+  .bg-wsmoke{
+      background-color: var(--color-wsmoke);
+  }
+
+  .bg-gradient0{
+    background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%); 
+  }
+
+  .bg-gradient1{
+    background: linear-gradient(90deg, rgba(55,220,208,1) 20%, rgba(255,134,129,1) 40%, rgba(163,125,138,1) 79%);
+  }
+
+  .bg-gradient2{
+    background: linear-gradient(90deg, rgba(163,125,138,1) 20%, rgba(224,131,132,1) 40%, rgba(55,220,208,1) 79%);
+  }
+
+  .bg-gradient3{
+      background: linear-gradient(90deg, rgba(55,220,208,1) 20%, rgba(180,127,136,1) 39%, rgba(224,131,132,1) 60%, rgba(55,220,208,1) 80%);
+  }

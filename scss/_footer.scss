@@ -1,0 +1,56 @@
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    background: var(--color-corn);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+  
+  .anchoFooter {
+    margin-top: 0px;
+  }
+  
+  .redes {
+    display: inline-block;
+  }
+  
+  .bi-facebook {
+    /* font-size: 30px; */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--color-corn-light);
+  }
+  
+  .bi-facebook:hover {
+    color: var(--color-fb);
+  }
+  
+  .bi-whatsapp {
+    /* font-size: 30px; */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--color-corn-light);
+  }
+  
+  .bi-whatsapp:hover {
+    color: var(--color-wapp);
+  }
+  
+  .bi-instagram {
+    /* font-size: 30px; */
+    text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: var(--color-corn-light);
+  }
+  
+  .bi-instagram:hover {
+    color: var(--color-ig);
+  }

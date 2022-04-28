@@ -72,14 +72,6 @@ body {
 .bg-gradient3 {
   background: linear-gradient(90deg, #37dcd0 20%, #b47f88 39%, #e08384 60%, #37dcd0 80%); }
 
-/* NAVBAR */
-a img {
-  border-radius: 10%; }
-
-.nav-hover:hover {
-  transform: scale(1.09);
-  transition: 500ms ease; }
-
 /* Pisando Clases existentes */
 .btn-primary {
   color: var(--color-corn-light);
@@ -103,29 +95,16 @@ a img {
   outline: 0;
   box-shadow: 0 0 0 0.15rem var(--color-bluelight); }
 
-/* EXPERIENCIAS */
-.grid-container > * {
-  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
-  border: 4px;
-  padding: 10px;
-  text-align: center; }
+/* NAVBAR */
+.fondo-nav {
+  background-color: var(--color-corn); }
 
-.grid-navbar {
-  grid-area: navbar;
-  background-color: lightgreen; }
+.nav-hover:hover {
+  transform: scale(1.09);
+  transition: 500ms ease; }
 
-.grid-sidebar {
-  grid-area: sidebar;
-  background-color: lightsalmon; }
-
-.grid-main {
-  grid-area: main;
-  background-color: whitesmoke; }
-
-.grid-container {
-  display: grid;
-  gap: 10px;
-  grid-template-areas: "navbar" "sidebar" "main"; }
+.navbar-brand img {
+  border-radius: 10%; }
 
 /* FOOTER */
 footer {
@@ -172,3 +151,27 @@ footer {
 
 .bi-instagram:hover {
   color: var(--color-ig); }
+
+/* EXPERIENCIAS */
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border: 4px;
+  padding: 10px;
+  text-align: center; }
+
+.grid-navbar {
+  grid-area: navbar;
+  background-color: lightgreen; }
+
+.grid-sidebar {
+  grid-area: sidebar;
+  background-color: lightsalmon; }
+
+.grid-main {
+  grid-area: main;
+  background-color: whitesmoke; }
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-areas: "navbar" "sidebar" "main"; }
