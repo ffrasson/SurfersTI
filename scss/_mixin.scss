@@ -1,0 +1,36 @@
+$bgcaja1: salmon;
+$bgcaja2: aqua;
+$bgcaja3: lightgreen;
+$granate: rgb(65, 7, 7);
+$text: rgb(0, 0, 0);
+
+@mixin cajas ($bgcaja){
+    background-color: $bgcaja;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    h2{
+        color: $granate;
+    }
+    p{
+        color: $text;
+    }
+}
+
+.header-mixin{
+    text-align: center;
+    color: $text;
+    height: 50px;
+}
+
+.productos{
+    @include cajas ($bgcaja1)
+}
+
+.servicios{
+    @include cajas ($bgcaja2)
+}
+
+.extras{
+    @include cajas ($bgcaja3)
+}

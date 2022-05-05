@@ -12,20 +12,9 @@
 
 @media (min-width: 990px){
     .grid-container{
-        /*grid-template-columns: 1fr 2fr 2fr;
-        grid-template-rows: repeat(2fr, 1fr);
-        grid-template-areas: 
-        "navbar navbar navbar"
-        "sidebar main main";
-        /*grid-template-columns: 80px auto;
-        grid-template-rows: 80px auto;
-        grid-template-areas:
-        "navbar  navbar"
-        "sidebar main";*/
         grid-template:
         "navbar navbar  navbar" 80px
         "sidebar  main    main" auto /
-        200px    auto    200px;
+        200px    auto    auto;
     }
   }
-  
