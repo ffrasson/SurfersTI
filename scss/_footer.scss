@@ -18,39 +18,28 @@ footer{
   .redes {
     display: inline-block;
   }
-  
-  .bi-facebook {
+
+  @mixin iconosRedes ($hover) {
     /* font-size: 30px; */
     text-align: center;
     margin-left: 5px;
     margin-right: 5px;
     color: var(--color-corn-light);
+  
+    &:hover{
+      color: $hover;
+    }
+    
   }
   
-  .bi-facebook:hover {
-    color: var(--color-fb);
+  .bi-facebook {
+    @include iconosRedes ($fb)
   }
   
   .bi-whatsapp {
-    /* font-size: 30px; */
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: var(--color-corn-light);
-  }
-  
-  .bi-whatsapp:hover {
-    color: var(--color-wapp);
+    @include iconosRedes ($wp)
   }
   
   .bi-instagram {
-    /* font-size: 30px; */
-    text-align: center;
-    margin-left: 5px;
-    margin-right: 5px;
-    color: var(--color-corn-light);
-  }
-  
-  .bi-instagram:hover {
-    color: var(--color-ig);
+    @include iconosRedes ($ig)
   }

@@ -3,15 +3,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Nunito+Sans:ital,wght@0,300;0,400;0,700;0,900;1,300&family=Orbitron:wght@400;500;600;700;900&family=Raleway:wght@500;600;700;800&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap");
 @media (max-width: 990px) {
   .navbar {
-    opacity: 0.8; }
+    opacity: 0.95; }
   .navbar-collapse {
     height: 100vh; }
   .mt-mob {
     margin-top: 2rem; } }
-
-@media (min-width: 990px) {
-  .grid-container {
-    grid-template: "navbar navbar  navbar" 80px "sidebar  main    main" auto / 200px    auto    auto; } }
 
 /* Variables*/
 :root {
@@ -21,10 +17,7 @@
   --color-blue: rgb(53,99,139);
   --color-green: rgb(0,255,126);
   --color-grey: grey;
-  --color-wsmoke: whitesmoke;
-  --color-wapp: rgb(0,255,126);
-  --color-ig: #8a3ab9;
-  --color-fb:#3b5998; }
+  --color-wsmoke: whitesmoke; }
 
 /* Tipografía general */
 body {
@@ -117,6 +110,13 @@ a img {
   gap: 10px;
   grid-template-areas: "navbar" "sidebar" "main"; }
 
+@media (min-width: 990px) {
+  .grid-container {
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-template-columns: repeat(2fr, 1fr);
+    gap: 10px;
+    grid-template-areas: "navbar navbar navbar" "main main sidebar"; } }
+
 /* FOOTER */
 footer {
   width: 100%;
@@ -139,9 +139,8 @@ footer {
   margin-left: 5px;
   margin-right: 5px;
   color: var(--color-corn-light); }
-
-.bi-facebook:hover {
-  color: var(--color-fb); }
+  .bi-facebook:hover {
+    color: #3b5998; }
 
 .bi-whatsapp {
   /* font-size: 30px; */
@@ -149,9 +148,8 @@ footer {
   margin-left: 5px;
   margin-right: 5px;
   color: var(--color-corn-light); }
-
-.bi-whatsapp:hover {
-  color: var(--color-wapp); }
+  .bi-whatsapp:hover {
+    color: #00ff7e; }
 
 .bi-instagram {
   /* font-size: 30px; */
@@ -159,9 +157,8 @@ footer {
   margin-left: 5px;
   margin-right: 5px;
   color: var(--color-corn-light); }
-
-.bi-instagram:hover {
-  color: var(--color-ig); }
+  .bi-instagram:hover {
+    color: #8a3ab9; }
 
 .header-mixin {
   text-align: center;

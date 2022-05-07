@@ -1,6 +1,6 @@
 @media (max-width: 990px) {
     .navbar{
-        opacity: 0.8;
+        opacity: 0.95;
     }
     .navbar-collapse{
         height: 100vh;
@@ -9,12 +9,3 @@
         margin-top: 2rem;
     }
 }
-
-@media (min-width: 990px){
-    .grid-container{
-        grid-template:
-        "navbar navbar  navbar" 80px
-        "sidebar  main    main" auto /
-        200px    auto    auto;
-    }
-  }
