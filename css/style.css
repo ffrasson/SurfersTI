@@ -26,7 +26,7 @@ body {
 
 /* Creando Nuevas Clases */
 .mt-6 {
-  margin-top: 6rem; }
+  margin-top: 5rem; }
 
 .bg-corn {
   background-color: var(--color-corn); }
@@ -108,7 +108,7 @@ a img {
 .grid-container {
   display: grid;
   gap: 10px;
-  grid-template-areas: "navbar" "sidebar" "main"; }
+  grid-template-areas: "navbar" "main" "sidebar"; }
 
 @media (min-width: 990px) {
   .grid-container {
@@ -162,35 +162,44 @@ footer {
 
 .header-mixin {
   text-align: center;
-  color: black;
+  color: #343434;
   height: 50px; }
 
 .productos {
-  background-color: salmon;
+  background-color: lightsalmon;
   border-radius: 5px;
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border: 4px;
+  text-align: center;
   padding: 1rem;
   margin: 1rem; }
   .productos h2 {
     color: #410707; }
   .productos p {
-    color: black; }
+    color: #343434; }
 
 .servicios {
-  background-color: aqua;
+  background-color: whitesmoke;
   border-radius: 5px;
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border: 4px;
+  text-align: center;
   padding: 1rem;
   margin: 1rem; }
   .servicios h2 {
     color: #410707; }
   .servicios p {
-    color: black; }
+    color: #343434; }
 
 .extras {
   background-color: lightgreen;
   border-radius: 5px;
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border: 4px;
+  text-align: center;
   padding: 1rem;
   margin: 1rem; }
   .extras h2 {
     color: #410707; }
   .extras p {
-    color: black; }
+    color: #343434; }
