@@ -19,7 +19,8 @@
     cursor: pointer;
     &:hover{
         transform: scale(0.95);
-        background-color: $grid-side
+        background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%);
+        color: var(--color-wsmoke);
     }
 }
 
@@ -28,7 +29,8 @@
     cursor: pointer;
     &:hover{
         transform: scale(0.95);
-        background-color: $grid-main;
+        background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%);
+        color: $color-blanco;
     }
 }
 
@@ -37,6 +39,7 @@
     cursor: pointer;
     &:hover{
         transform: scale(0.95);
-        background-color: $grid-nav;
+        background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%);
+        color: $color-blanco;
     }
 }

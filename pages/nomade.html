@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Links Favicon / Animate Animated / AOS -->
     <link rel="shortcut icon" href="../img/favicon.ico">
-    <!-- Links Animate Animated -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <script src="https://kit.fontawesome.com/b7a5260f49.js" crossorigin="anonymous"></script>
+
     <!-- Links de Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -54,6 +56,45 @@
         </div>
       </div>
      </nav>
+
+    <!--  HERO  -->
+      <header>
+         <img class="img-fluid mt-6 mb-0" src="../img/hero-nomade.png" alt="Imagen de Surf Australia">
+      </header>
+     
+    <section class="container-fluid">
+      <!--  BOOTSTRAP GRID  -->
+      <div class="row mt-2 ms-2">
+        <div class="row mt-3 text-corn text-center lh-base text-wrap">
+          <div class="col-12 text-center bg-gradient1">
+              <h2 class="text-light p3 animate__animated animate__pulse">
+                Ser un Nómade Digital
+              </h2>
+          </div>
+          <div class="col-12 col-sm-3 p-3 border bg-wsmoke">
+            <h2>Cómo Ser un Nómade digital</h2>
+            <p>Desde SurfersTI te brindamos toda la atención y asistencia para alcanzar tus metas y cumplir tus sueños.</p>
+          </div>
+          <div class="col-12 col-sm-3 p-3 border bg-wsmoke">
+            <h2>Experimenta la Vida Nómade Digital</h2>
+            <p>Seguí navegando para conocer más</p>
+          </div>
+          <div class="col-12 col-sm-3 p-3 border bg-wsmoke">
+            <h2>Busca Trabajo Remoto</h2>
+            <p>Seguí navegando para conocer más</p>
+          </div>
+          <div class="col-12 col-sm-3 p-3 border bg-wsmoke">
+            <h2>Emprendé tu Negocio</h2>
+            <p>Seguí navegando para conocer más</p>
+          </div>
+          <div class="col-12 mb-1 bg-gradient2 text-center">
+            <h2 class="text-light p3">
+              Surfeando la Ola de la Innovación Tecnológica
+            </h2>
+          </div>
+        </div>
+      </div>
+    </section>
     
     <!--  GALERIA  -->
     <header>
@@ -62,12 +103,9 @@
         class="carousel slide carousel-fade"
         data-bs-ride="carousel"
       >
-        <div class="carousel-inner mt-6">
+        <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="../img/galeria7.png" class="d-block w-100" alt="combi surfer coffee" />
-          </div>
-          <div class="carousel-item">
-            <img src="../img/galeria1.jpg" class="d-block w-100" alt="Surfeando la Ola 3" />
+            <img src="../img/galeria1.jpg" class="d-block w-100" alt="combi surfer coffee" />
           </div>
           <div class="carousel-item">
             <img src="../img/galeria2.jpg" class="d-block w-100" alt="digital nomad" />
@@ -107,57 +145,50 @@
     </header>
 
     <!--  CONTENIDO PRINCIPAL  -->
-    <main class="container-fluid mb-5">
-      <h1 class="h3 text-center mt-5 mb-3">Experiencia Nómade Digital</h1>
-      <div class="row justify-content-around">
-        <div class="card" style="width: 18rem">
-          <img src="../img/nomade1.jpg" class="card-img-top" alt="experiencia nomade digital" />
-          <div class="card-body">
-            <h5 class="card-title">Ser un Nómade Digital</h5>
+    <main class="container-fluid mb-3">
+      <div class="row mt-3 justify-content-around">
+        <div class="card" style="width: 18rem" data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+          <img src="../img/nomade1.jpg" class="card-img-top mt-2" alt="Ser un Nómade Digital" />
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Ser un Nómade Digital</h5>
             <p class="card-text">
               Todo lo que tenes que saber acerca de las ventajas de convertirte en un Nómade Digital.
             </p>
-            <a href="#" class="btn btn-primary">Conocer más</a>
+            <a href="#" class="btn btn-outline-info">Conocer más</a>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img src="../img/nomade2.jpg" class="card-img-top" alt="trabajo y servicios remotos" />
-          <div class="card-body">
-            <h5 class="card-title">Experiencia Nómade Digital</h5>
+        <div class="card" style="width: 18rem" data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+          <img src="../img/nomade2.jpg" class="card-img-top mt-2" alt="Experiencia Nómade Digital" />
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Experiencia Nómade</h5>
             <p class="card-text">
-             Viví la experiencia de trabajar o emprender tu propio negocio de forma remota.
+              Viví la experiencia de trabajar o emprender tu propio negocio de forma remota alrededor del mundo.
             </p>
-            <a href="#" class="btn btn-primary">Conocer más</a>
+            <a href="#" class="btn btn-outline-info">Conocer más</a>
           </div>
         </div>
-        <div class="card" style="width: 18rem">
-          <img src="../img/nomade3.jpg" class="card-img-top" alt="tips y consejos" />
-          <div class="card-body">
-            <h5 class="card-title">Consejos Nómades</h5>
+        <div class="card" style="width: 18rem" data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+          <img src="../img/nomade3.jpg" class="card-img-top mt-2" alt="Buscá Trabajo Remoto" />
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Buscá Trabajo Remoto</h5>
             <p class="card-text">
-              Los mejores Tips del Mundo Nómade, consejos para viajar seguro y conseguir alojamiento.
+              Te acompañamos en tu proceso de búsqueda y te brindamos las mejores herramientas para lograrlo.
             </p>
-            <a href="#" class="btn btn-primary">Conocer más</a>
+            <a href="#" class="btn btn-outline-info">Conocer más</a>
           </div>
         </div>
+        <div class="card" style="width: 18rem" data-aos="flip-left" data-aos-easing="ease-out-cubic"data-aos-duration="2000">
+          <img src="../img/nomade4.jpg" class="card-img-top mt-2" alt="Emprendé tu Negocio" />
+          <div class="card-body text-center">
+            <h5 class="card-title fw-bold">Emprendé tu Negocio</h5>
+            <p class="card-text">
+              Colaboramos para que emprendas tu negocio o proyecto de forma remota y potenciarlo.
+            </p>
+            <a href="#" class="btn btn-outline-info">Conocer más</a>
+          </div>
+        </div>  
       </div>
     </main>
-
-    <h3 class="text-center mt-5 mb-3">Instantáneas Nómades</h3>
-    <section class="imagenes">
-        <div>
-            <img src="../img/1.png" alt="">
-        </div>
-        <div>
-            <img src="../img/2.png" alt="">
-        </div>       
-        <div>
-            <img src="../img/3.png" alt="">
-        </div>        
-        <div>
-            <img src="../img/4.png" alt="">
-        </div>        
-    </section>
 
     <!--  FOOTER  -->
     <footer>
@@ -170,8 +201,9 @@
         </div>
       </div>
     </footer>
-
+  
     <!--  SCRIPTS  -->
+    <!--  Bootstrap-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -179,6 +211,18 @@
     ></script>
     <script>
       var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+    <!--  Fontawesome  -->
+    <script src="https://kit.fontawesome.com/b7a5260f49.js" crossorigin="anonymous"></script>
+    <!--  wow  -->
+    <script src="../js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!--  aos  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
 
 </body>

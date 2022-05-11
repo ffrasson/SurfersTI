@@ -5,6 +5,7 @@
     border: 4px;
     padding: 10px;
     text-align: center;
+    margin-right: 24px;
 }
 
 .grid-navbar{
@@ -22,13 +23,19 @@
   background-color: $grid-main;
 }
 
+.grid-footer{
+  grid-area: footer;
+  background: linear-gradient(90deg, rgba(163,125,138,1) 20%, rgba(224,131,132,1) 40%, rgba(55,220,208,1) 79%);
+}
+
 .grid-container{
   display: grid;
   gap: 10px;
   grid-template-areas: 
   "navbar"
   "main"
-  "sidebar";
+  "sidebar"
+  "footer";
 }
 
 @media (min-width: 768px) {
@@ -38,6 +45,7 @@
         gap: 10px;
         grid-template-areas: 
         "navbar navbar navbar navbar"
-        "main main sidebar sidebar";
+        "main main sidebar sidebar"
+        "footer footer footer footer";
 	}
 }
