@@ -18,19 +18,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!-- Estilos Propios -->
     <link href="../css/style.css" rel="stylesheet"/>     
-    <title>SurfersTI - Vive la Experiencia</title>
+    <title>SurfersTI - Tips y Consejos</title>
   </head>
 
   <body>
     <!--  NAVBAR  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-corn fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-corn fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="../index.html"><img class="nav-hover" src="../img/logo-SurferTI-3.jpg" width="100" alt="logo SurferTI"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-5 mb-lg-0">
+          <ul class="navbar-nav me-auto mb-5 mb-sm-0">
             <li class="nav-item ms-4">
               <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
             </li>
@@ -41,33 +41,54 @@
               <a class="nav-link" href="./servicios.html">Servicios</a>
             </li>
             <li class="nav-item ms-4">
-              <a class="nav-link" href="./experiencia.html">Experiencia</a>
+              <a class="nav-link" href="./consejos.html">Consejos</a>
             </li>
             <li class="nav-item ms-4">
               <a class="nav-link" href="./contacto.html">Contacto</a>
             </li>
           </ul>
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-light" type="submit">Buscar</button>
+            <a class="btn btn-outline-light" href="./contacto.html" role="button"><i class="fa-solid fa-user"></i>  Ingresar</a>
           </form>
         </div>
       </div>
      </nav>
 
+<!--  HERO  -->
+    <header>
+     <img class="img-fluid mt-6" src="../img/hero2.jpg" alt="">
+    </header>
+
  <!--  ONTENIDO PRINCIPAL  -->
-    <main id="experiencia" class="grid-container pt-3 pb-3 mt-6">
-      <nav class="grid-navbar">NAVBAR</nav>
+    <main id="experiencia" class="grid-container pt-3 pb-3">
+      <nav class="grid-navbar">
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Busca los mejores Tips y Consejos para Nómades digitales" aria-label="Busca Tips y Consejos Nómades">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+      </nav>
       <aside class="grid-sidebar">
-        <h3>
-          Experiencias Nómade Digital
+        <h3 class="mt-3">
+          Consejos para una experiencia Nómade Digital
         </h3>
         <br>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/m48pyIZZbv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></iframe>
+        <div class="embed-container">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/m48pyIZZbv0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </aside>
       <article class="grid-main">
-        <h1 class="h3 text-center mt-3 mb-3">Experiencia Nómade Digital</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia officiis vitae voluptatum nobis autem accusamus ex magni possimus, voluptatibus laudantium qui explicabo nostrum illo sapiente voluptatem esse minus illum nemo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nihil ratione odit sit optio et quod asperiores quidem ex! Expedita voluptates quos, molestias quidem impedit ea sed illum consectetur facilis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque sunt sapiente tenetur exercitationem suscipit, eaque quaerat eius officiis ex quas, laudantium distinctio ad iste praesentium nisi ut animi ratione mollitia.</p>
+        <h1 class="h3 text-center mt-3 mb-3">Tips para ser un Nómade Digital</h1>
+        <p>Estamos convencidos de que, si te apasiona lo que haces, acompañado por el deseo de viajar, tu trabajo va a ser mejor. Por eso te acompañamos en el proceso y que puedas seguir tu instinto viajero con las mejores propuestas de servicio y consejos para que tu sueño se haga realidad</p>
+        <section class="nomade">      
+          <ul class="nomade-menu">
+              <li class="nomade-item"><a href="#" target="_blank" class="nomade-link">Nómade Digital</a></li>
+              <li class="nomade-item"><a href="#" target="_blank" class="nomade-link">Como Ser un Nómade Digital</a></li>
+              <li class="nomade-item"><a href="#" target="_blank" class="nomade-link">Experimenta la vida Nómade Digital</a></li>
+              <li class="nomade-item"><a href="#" target="_blank" class="nomade-link">Trabajo Remoto</a></li>
+              <li class="nomade-item"><a href="#" target="_blank" class="nomade-link">Busca Trabajo Remoto</a></li>
+              <li class="nomade-item"><a href="#" target="_blank" class="nomade-link">Emprendé tu Negocio Remoto</a></li>
+          </ul>
+      </section>
       </article>
     </main>
   

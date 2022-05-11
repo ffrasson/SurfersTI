@@ -7,27 +7,36 @@
     padding: 1rem;
     margin: 1rem;
     h2{
-        color: $granate;
+        color: $color-oscuro;
     }
     p{
         color: $color-oscuro;
     }
 }
 
-.header-mixin{
-    text-align: center;
-    color: $color-oscuro;
-    height: 50px;
-}
-
 .productos{
-    @include cajas ($grid-nav)
+    @include cajas ($grid-main);
+    cursor: pointer;
+    &:hover{
+        transform: scale(0.95);
+        background-color: $grid-side
+    }
 }
 
 .servicios{
-    @include cajas ($grid-main)
+    @include cajas ($grid-nav);
+    cursor: pointer;
+    &:hover{
+        transform: scale(0.95);
+        background-color: $grid-main;
+    }
 }
 
 .extras{
-    @include cajas ($grid-side)
+    @include cajas ($grid-side);
+    cursor: pointer;
+    &:hover{
+        transform: scale(0.95);
+        background-color: $grid-nav;
+    }
 }

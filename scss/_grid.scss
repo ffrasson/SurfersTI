@@ -9,17 +9,17 @@
 
 .grid-navbar{
   grid-area: navbar;
-  background-color: lightgreen;
+  background: linear-gradient(90deg, rgba(55,220,208,1) 20%, rgba(255,134,129,1) 40%, rgba(163,125,138,1) 79%);
 }
 
 .grid-sidebar{
   grid-area: sidebar;
-  background-color: lightsalmon;
+  background-color: $grid-side;
 }
 
 .grid-main{
   grid-area: main;
-  background-color: whitesmoke;
+  background-color: $grid-main;
 }
 
 .grid-container{
@@ -31,13 +31,13 @@
   "sidebar";
 }
 
-@media (min-width: 990px) {
+@media (min-width: 768px) {
 	.grid-container {
-        grid-template-columns: 2fr 2fr 1fr;
+        grid-template-columns: 2fr 2fr 2fr 2fr;
         grid-template-columns: repeat(2fr, 1fr);
         gap: 10px;
         grid-template-areas: 
-        "navbar navbar navbar"
-        "main main sidebar";
+        "navbar navbar navbar navbar"
+        "main main sidebar sidebar";
 	}
 }

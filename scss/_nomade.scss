@@ -1,0 +1,38 @@
+/*  NOMADE  */
+
+.nomade-menu{
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content:last baseline;
+    align-items: center;
+    color: var(--color-grey);
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nomade-item{
+    text-align: center;
+    color: var(--navbar-shadow-color);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 1rem;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 1px 2px 3px var(--color-grey);
+    background-color: var(--color-corn);
+    border-radius: 10%;
+
+    &:hover{
+        transition: 0.5s;
+        background: rgb(53,99,139);
+        background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%);
+    }
+}
+.nomade-link{
+    text-decoration: none;
+    color: var(--color-green);
+    &:hover{
+        color:rgb(254, 254, 255);
+    }
+}

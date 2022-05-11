@@ -5,23 +5,25 @@
     color: var(--color-corn-light);
     background-color: var(--color-corn);
     border-color: var(--color-corn);
-}
 
-.btn-primary:hover{
-    color: var(--color-corn-light);
-    background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%); 
-    border-color: var(--color-green);
-    transform: scale(0.9);
+    &:hover{
+        color: var(--color-wsmoke);
+        background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%); 
+        border-color: var(--color-blue-light);
+        transform: scale(0.95);
+        transition: 0.5s;
+    }
 }
 
 .accordion-button:not(.collapsed) {
     color: var(--color-wsmoke);
-    background: linear-gradient(90deg, rgba(53,99,139,1) 0%, rgba(0,184,191,1) 35%, rgba(0,212,255,1) 100%);
+    background: rgba(0,184,191,1);
     box-shadow: var(--color-corn);
-}
-.accordion-button:focus {
-    z-index: 3;
-    border-color: var(--color-corn);
-    outline: 0;
-    box-shadow: 0 0 0 0.15rem var(--color-bluelight)
+
+    &:focus {
+        z-index: 3;
+        border-color: var(--color-corn);
+        outline: 0;
+        box-shadow: 0 0 0 0.15rem var(--color-bluelight)
+    }
 }

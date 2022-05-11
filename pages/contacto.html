@@ -23,7 +23,7 @@
 
   <body>
   <!--  NAVBAR  -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-corn fixed-top">
+  <nav class="navbar navbar-expand-md navbar-light bg-corn fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html"><img class="nav-hover" src="../img/logo-SurferTI-3.jpg" width="100" alt="logo SurferTI"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,23 +41,27 @@
             <a class="nav-link" href="./servicios.html">Servicios</a>
           </li>
           <li class="nav-item ms-4">
-            <a class="nav-link" href="./experiencia.html">Experiencia</a>
+            <a class="nav-link" href="./consejos.html">Consejos</a>
           </li>
           <li class="nav-item ms-4">
             <a class="nav-link" href="./contacto.html">Contacto</a>
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light" type="submit">Buscar</button>
+          <a class="btn btn-outline-light" href="./contacto.html" role="button"><i class="fa-solid fa-user"></i>  Ingresar</a>
         </form>
       </div>
     </div>
   </nav>
 
+<!--  HERO  -->
+  <header>
+    <img class="img-fluid mt-6 mb-0" src="../img/contacto-2.png" alt="">
+ </header>
+
  <!--  ONTENIDO PRINCIPAL  -->
-    <main id="contacto" class="container-fluid pt-3 pb-3 mt-5">
-      <h1 class="h3 text-center mt-5 mb-3">Contacto</h1>
+    <main id="contacto" class="container-fluid">
+      <h1 class="h3 text-center mt-3 mb-3">Contacto</h1>
       <div class="row">
         <article class="col-md-6" >
           <form class="row g-3">
@@ -68,6 +72,9 @@
             <div class="col-md-6">
               <label for="inputPassword4" class="form-label">Password</label>
               <input type="password" class="form-control" id="inputPassword4" />
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-outline-info">Ingresar</button>
             </div>
             <div class="col-12">
               <label for="inputAddress" class="form-label">Nombre</label>
@@ -111,11 +118,11 @@
               </div>
             </div>
             <div class="col-12">
-              <button type="submit" class="btn btn-primary">Regístrate</button>
+              <button type="submit" class="btn btn-outline-info">Regístrate</button>
             </div>
           </form>
         </article>
-        <article class="col-md-6 mt-5">
+        <article class="col-md-6 mt-3">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d210147.3970706404!2d-58.57338436212408!3d-34.615461118227664!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses!2sar!4v1648220802421!5m2!1ses!2sar"
             width="100%"

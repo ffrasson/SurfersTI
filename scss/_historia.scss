@@ -1,0 +1,35 @@
+/* Historia */
+
+.historia{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
+
+    img{
+        justify-content: flex-end;;
+    }
+}
+
+.historia__textos{
+    justify-content: flex-start;
+
+    h2{
+        text-align: left;
+        color: var(--text-color-inverse);
+    }
+    p{
+        width: 100%;
+        text-align: justify;
+        color: var(--primary-color)
+    }
+}
+
+.historia__img{
+    justify-content: flex-end;
+    margin: 1rem;
+    img{
+        width: 100%;
+    }
+    
+}
