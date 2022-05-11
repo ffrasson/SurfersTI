@@ -3,7 +3,7 @@
         opacity: 0.95;
         text-align: center;
         font-size: 1.5rem;
-        padding: 1.5rem;
+        padding: 10px;
         background-color: blue;
     }
     .navbar-collapse{
@@ -19,6 +19,9 @@
         .btn{
             cursor: pointer;
         }
+    }
+    .card{
+        margin-top: 10px;
     }
 }
 

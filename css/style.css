@@ -6,7 +6,7 @@
     opacity: 0.95;
     text-align: center;
     font-size: 1.5rem;
-    padding: 1.5rem;
+    padding: 10px;
     background-color: blue; }
   .navbar-collapse {
     height: 100vh; }
@@ -16,7 +16,9 @@
     justify-content: flex-end;
     width: 100%; }
     .d-flex .btn {
-      cursor: pointer; } }
+      cursor: pointer; }
+  .card {
+    margin-top: 10px; } }
 
 /* Variables*/
 :root {
