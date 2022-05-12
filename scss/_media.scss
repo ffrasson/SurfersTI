@@ -13,11 +13,13 @@
         margin-top: 2rem;
     }
     .d-flex{
-        justify-content:flex-end;
+        justify-content:center;
         width: 100%;
+        margin: 15px;
     
         .btn{
             cursor: pointer;
+            align-items: center;
         }
     }
     .card{

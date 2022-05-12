@@ -13,10 +13,12 @@
   .mt-mob {
     margin-top: 2rem; }
   .d-flex {
-    justify-content: flex-end;
-    width: 100%; }
+    justify-content: center;
+    width: 100%;
+    margin: 15px; }
     .d-flex .btn {
-      cursor: pointer; }
+      cursor: pointer;
+      align-items: center; }
   .card {
     margin-top: 10px; }
   .imgconsejo {
