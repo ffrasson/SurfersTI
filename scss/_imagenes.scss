@@ -6,15 +6,18 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+
+    img{
+        width: 250px;
+        height: 150px;
+        opacity: .5;
+        border: 2px double var(--color-grey);
+        cursor: pointer;
+
+        &:hover{
+            opacity: 1;
+            border: solid;
+        }
+    }
 }
-.imagenes img{
-    width: 250px;
-    height: 150px;
-    opacity: .5;
-    border: 2px double var(--color-grey);
-    cursor: pointer;
-}
-.imagenes img:hover{
-    opacity: 1;
-    border: solid;
-}
+

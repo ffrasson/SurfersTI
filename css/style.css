@@ -35,6 +35,12 @@
   --grid-side:rgb(0, 228, 211);
   --color-nomade: rgb(44, 98, 141); }
 
+/* Normalizado*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 /* Tipografía general */
 body {
   font-family: raleway;
@@ -255,17 +261,15 @@ footer {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around; }
-
-.imagenes img {
-  width: 250px;
-  height: 150px;
-  opacity: .5;
-  border: 2px double var(--color-grey);
-  cursor: pointer; }
-
-.imagenes img:hover {
-  opacity: 1;
-  border: solid; }
+  .imagenes img {
+    width: 250px;
+    height: 150px;
+    opacity: .5;
+    border: 2px double var(--color-grey);
+    cursor: pointer; }
+    .imagenes img:hover {
+      opacity: 1;
+      border: solid; }
 
 /* Historia */
 .historia {
